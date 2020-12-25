@@ -6,6 +6,7 @@ class Car{
     public:
 
     Car(){
+        
         std::cout<<"Default constructor:"<<"\n";
         std::cout<<"--------------------"<<"\n";
         std::cout<<"Name: "<<car_name<<"\n";
