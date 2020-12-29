@@ -1,5 +1,4 @@
 #include<iostream>
-
 bool myfunc(int n){
     int original,remainder,reversed;
     original=n;
@@ -13,7 +12,6 @@ bool myfunc(int n){
     }
     return false;
 }
-
 int main(){
     int num;
     std::cout<<"Enter the number:";

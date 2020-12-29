@@ -1,17 +1,14 @@
 #include<iostream>
 
 class Car{
-    std::string car_name = "Audi",fuel_type = "Diesel";
-    int car_prize=120000;
     public:
 
     Car(){
-        
         std::cout<<"Default constructor:"<<"\n";
         std::cout<<"--------------------"<<"\n";
-        std::cout<<"Name: "<<car_name<<"\n";
-        std::cout<<"Price: "<<car_prize<<"\n";
-        std::cout<<"Type of Fuel: "<<fuel_type<<"\n\n";
+        std::cout<<"Name: Audi\n";
+        std::cout<<"Price: 120000\n";
+        std::cout<<"Type of Fuel: Diesel\n\n";
     }
     Car(std::string car_name,int car_prize,std::string fuel_type){
         std::cout<<"Parematerized Constructor:"<<"\n";
@@ -23,7 +20,7 @@ class Car{
     Car(Car &obj){
         std::cout<<"Copy constructor:"<<"\n";
         std::cout<<"-----------------"<<"\n";
-        std::cout<<"Name of Car: "<<obj.car_name<<"\n";
+        std::cout<<"Name of Car: "<<obj.a<<"\n";
         std::cout<<"Prize of the car: "<<obj.car_prize<<"\n";
         std::cout<<"Type of the fuel: "<<obj.fuel_type<<"\n\n";
     }    
